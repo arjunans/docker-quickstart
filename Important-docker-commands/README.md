@@ -18,7 +18,7 @@
 - docker start <id-of-container>
 
 ## How to stop container
-docker stop <id-of-container>
+- docker stop <id-of-container>
 
 ## How to do port mapping between host and container (d -detached mode, p - port)
 - docker run -dp 3001:80 bootstrap-static-page
@@ -36,7 +36,7 @@ docker stop <id-of-container>
  - docker rm $(docker ps -aq) - This command may not run properly when you run it from cmd prompt. use powershell either in windows. No issues with linux.
 
 ## How to delete all downloaded images in one command? (Note:- Be careful while using this command in development)
-docker rmi $(docker images -q) - This command may not run properly when you run it from cmd prompt. use powershell either in windows. No issues with linux
+ - docker rmi $(docker images -q) - This command may not run properly when you run it from cmd prompt. use powershell either in windows. No issues with linux
 
 ## How to stop all running containers in one command? (Note:- Be careful while using this command in development)
  - docker stop $(docker ps -aq) - This command may not run properly when you run it from cmd prompt. use powershell either in windows. No issues with linux
