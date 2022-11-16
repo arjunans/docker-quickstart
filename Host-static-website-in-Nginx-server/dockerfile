@@ -1,0 +1,2 @@
+FROM nginx
+COPY startbootstrap-agency /usr/share/nginx/html
